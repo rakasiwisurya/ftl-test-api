@@ -8,7 +8,6 @@ export const getRoomDetails = async (req: Request, res: Response) => {
         SELECT 
           room_detail_id, 
           room_detail_name, 
-          unit, 
           capacity 
         FROM room_details
       `
